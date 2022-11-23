@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+.container{
+    background-color: rgb(255, 149, 0);
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#menu {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 149, 0);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+/*#menu, li, a {
+    text-decoration: none;
+    color: rgb(255, 149, 0);
+    display: inline-block;
+}*/
+
+p {
+    text-align: left;
+    /*padding-top: 30px;*/
+    font-size: 20px;
+    padding-left: 7%;
+    padding-right: 10%;
+}
+.h2cont {
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.img {
+    width: 30%;
+    border: 3px solid rgba(235, 140, 7, 0.558);
+    margin-right: 20px;
+    border-radius: 15%;
+    margin-bottom: 50px;
+
+}
+
+h1 {
+    font-family: 'Marhey', cursive;
+    font-size: 35px;
+
+}
+
+#h2_header {
+    font-size: 25px;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#p_footer {
+    text-align: center;
+}
